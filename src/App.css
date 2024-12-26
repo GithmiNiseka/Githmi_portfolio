@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body{
+  font-family: 'Alata', sans-serif!important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Skill {
+    display: none; /* Hide the default image */
+  }
+
+  .mobile {
+    display: block; /* Show the mobile image */
+  }
+
+ 
+}
+
+/* Optionally, adjust image size for mobile screens */
+@media (max-width: 480px) {
+  .home {
+    width: 90%;
+  }
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+textarea,
+input:not([type='submit']) {
+  height: 50px;
+  padding-left: 16px;
+  width: 250px;
+  border: none; 
+  border-bottom: 1px solid #888;
+}
+
+textarea {
+  padding-top: 16px;
+  resize: none;
+  height: 150px;
+}
+
+input,
+textarea {
+  border-radius: 0; 
+  box-sizing: border-box;
+  justify-self: center;
+  background-color: var(--background-color);
+  color: black;
+}
+
+textarea:focus,
+input:focus:not([type='submit']) {
+  outline: none; /* Ensure no focus outline appears */
+}
+::placeholder {
+  font-size: 16px;
+ 
+}
+
+
+input[type='submit'] {
+  background-color: #B9FF66;;
+  color: #000000;
+  border: none;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  margin: auto;
+}
+
+input[type='submit']:hover {
+  transform: scale(1.05);
+}
+
+input[type='submit']:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media (width >= 800px) {
+  textarea,
+  input:not([type='submit']) {
+    width: 600px;
+    font-size: 20px;
+  }
+  form {
+    gap: 40px;
+  }
+}
+
+@media (width >= 1400px) {
+  textarea,
+  input:not([type='submit']) {
+    width: 800px;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  color: rgb(0, 0, 0);
+}
+.navbar-links {
+  display: flex;
+  gap: 50px; 
+  margin-left: 20px; 
+  justify-content: flex-start; 
+}
+.navbar-logo a {
+  font-size: 1.5rem;
+  margin-right: 800px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.navbar-links li a {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.navbar-line {
+  width: 100%;
+  height: 1px;
+  background-color: #cfcfcf;
+}
+
+
+ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* Mobile Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 10px; 
+    
+  }
+
+  .navbar-logo a {
+    font-size: 0.85rem;
+    margin-right: 10px;
+  }
+
+  .navbar-links {
+    gap: 10px; 
+  }
+
+  .navbar-links li a {
+    font-size: 0.8rem; 
+    padding: 3px 5px; 
+  }
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Content */
+.popup-content {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Image inside the popup */
+.popup-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Close the popup when clicking on overlay */
+.popup-overlay:hover {
+  cursor: pointer;
+}
+
+/* Figmagreen image */
+.popup-icon-left-bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.popup-icon-right-bottom {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+}
+/* Mobile-specific adjustments */
+@media (max-width: 600px) {
+  .popup-content {
+    max-width: 60%; 
+    max-height: 50vh; 
+    padding: 5px; 
+    position: relative;
+   top: -200px;
+    left: -265px;
+  }
+
+  .popup-img {
+    max-width: 100%; 
+    max-height: 40vh; 
+    object-fit: contain;
+  }
+  @media (max-width: 600px) {
+    .popup-icon-left-bottom,
+    .popup-icon-right-bottom {
+      width: 50px; 
+      height: 50px; 
+    }
+  }
+}
+.popup-cancel {
+  position: absolute;
+  top: -20px; 
+  right: -20px; 
+  width: 50px; 
+  height: 50px; 
+  cursor: pointer;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 16px; /* Space between grid items */
+  margin: 32px auto;
+  max-width: 80%; 
+}
+
+.grid-item {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  transition: transform 0.2s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.ViewMore{
+  margin-top: 50px; 
+}
+.more{
+  margin-bottom: 50px; 
+}
+
+@media (max-width: 768px) {
+  .ViewMore{
+    width: 100px; 
+  }
+  .logo {
+    width: 50px;
+  }
+  input[type='submit'] {
+    width: 200px; 
+    font-size: 16px; 
+    height: 35px; 
+  }
+}
