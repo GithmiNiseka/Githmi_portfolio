@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Githmi_Portfolio/static/css/main.01bb5377.css",
+    "main.js": "/Githmi_Portfolio/static/js/main.a82317ab.js",
+    "static/js/488.9561f9b8.chunk.js": "/Githmi_Portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/Desktop - 6.png": "/Githmi_Portfolio/static/media/Desktop - 6.1204415846d04dd57dca.png",
+    "static/media/Desktop - 4.png": "/Githmi_Portfolio/static/media/Desktop - 4.730750ef6143d58e543c.png",
+    "static/media/Frame 1(1).png": "/Githmi_Portfolio/static/media/Frame 1(1).dae71b011f5558498cc7.png",
+    "static/media/Desktop - 2.png": "/Githmi_Portfolio/static/media/Desktop - 2.668ca3c38be39f2dec63.png",
+    "static/media/HappyTails.png": "/Githmi_Portfolio/static/media/HappyTails.5ecfbc455920d6e88f84.png",
+    "static/media/Desktop - 5.png": "/Githmi_Portfolio/static/media/Desktop - 5.f1cde7f30163486a03fa.png",
+    "static/media/CommunityApp.png": "/Githmi_Portfolio/static/media/CommunityApp.94da8ef92926c3653af1.png",
+    "static/media/mentalSpace.png": "/Githmi_Portfolio/static/media/mentalSpace.b30f459a2a91525868e8.png",
+    "static/media/experience.png": "/Githmi_Portfolio/static/media/experience.6a5c22d7f2df87d232ec.png",
+    "static/media/elderlynetwork .png": "/Githmi_Portfolio/static/media/elderlynetwork .896aeae8d47aaedbe586.png",
+    "static/media/Frame 2.png": "/Githmi_Portfolio/static/media/Frame 2.23513762e4771d5077bc.png",
+    "static/media/behance.png": "/Githmi_Portfolio/static/media/behance.69252756c5be4ed89497.png",
+    "static/media/figmagreen.png": "/Githmi_Portfolio/static/media/figmagreen.8e5a41191a5251189a6a.png",
+    "static/media/githubgreen.png": "/Githmi_Portfolio/static/media/githubgreen.656a303126ce6b71441c.png",
+    "static/media/figmablack.png": "/Githmi_Portfolio/static/media/figmablack.e557ee216a8c278a838e.png",
+    "static/media/Github.png": "/Githmi_Portfolio/static/media/Github.28af084297bc79a8b11a.png",
+    "static/media/footer.png": "/Githmi_Portfolio/static/media/footer.bd274bae03d7e9fa50e3.png",
+    "index.html": "/Githmi_Portfolio/index.html",
+    "main.01bb5377.css.map": "/Githmi_Portfolio/static/css/main.01bb5377.css.map",
+    "main.a82317ab.js.map": "/Githmi_Portfolio/static/js/main.a82317ab.js.map",
+    "488.9561f9b8.chunk.js.map": "/Githmi_Portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bb5377.css",
+    "static/js/main.a82317ab.js"
+  ]
+}
