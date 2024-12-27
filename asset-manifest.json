@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Githmi_portfolio/static/css/main.01bb5377.css",
+    "main.css": "/Githmi_portfolio/static/css/main.52e67f01.css",
     "main.js": "/Githmi_portfolio/static/js/main.b7a95ba0.js",
     "static/js/488.9561f9b8.chunk.js": "/Githmi_portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Desktop - 6.png": "/Githmi_portfolio/static/media/Desktop - 6.1204415846d04dd57dca.png",
@@ -21,12 +21,12 @@
     "static/media/Github.png": "/Githmi_portfolio/static/media/Github.28af084297bc79a8b11a.png",
     "static/media/footer.png": "/Githmi_portfolio/static/media/footer.bd274bae03d7e9fa50e3.png",
     "index.html": "/Githmi_portfolio/index.html",
-    "main.01bb5377.css.map": "/Githmi_portfolio/static/css/main.01bb5377.css.map",
+    "main.52e67f01.css.map": "/Githmi_portfolio/static/css/main.52e67f01.css.map",
     "main.b7a95ba0.js.map": "/Githmi_portfolio/static/js/main.b7a95ba0.js.map",
     "488.9561f9b8.chunk.js.map": "/Githmi_portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01bb5377.css",
+    "static/css/main.52e67f01.css",
     "static/js/main.b7a95ba0.js"
   ]
 }
