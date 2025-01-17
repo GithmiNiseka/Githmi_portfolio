@@ -289,6 +289,7 @@ ul, li, a {
       width: 50px; 
       height: 50px; 
     }
+    
   }
 }
 .popup-cancel {
@@ -338,5 +339,44 @@ ul, li, a {
     width: 200px; 
     font-size: 16px; 
     height: 35px; 
+  }
+  
+}
+
+
+
+/* Default styles for Desktop and larger screens */
+.social-icons {
+  position: relative;
+  bottom: 220px; /* Adjust the distance from the bottom */
+  left: -300px;  /* Adjust the distance from the left */
+  display: flex; /* Arrange the icons horizontally */
+  flex-direction: row; /* Default horizontal layout for desktop */
+}
+
+.social-icon {
+  width: 80px; /* Set the size of the social icons */
+  height: 80px; /* Set the size of the social icons */
+  margin-right: 10px; /* Add some spacing between icons */
+  opacity: 0.8; /* Optional: Add a little transparency */
+  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+  opacity: 1; /* Make icons fully visible on hover */
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    position: relative;
+    bottom: 50px; /* Adjust the distance from the bottom */
+    left: -70px;  /* Adjust the distance from the left */
+
+  }
+  .social-icon {
+    width: 25px; /* Set the size of the social icons */
+    height: 25px; /* Set the size of the social icons */
+    margin-right: 2px; /* Add some spacing between icons */
+    
   }
 }

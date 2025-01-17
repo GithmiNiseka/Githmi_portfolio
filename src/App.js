@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './img/Frame 1(1).png';
+import Home from './img/Frame 1.png';
 import Skill from './img/Frame 2.png';
 import Experince from './img/experience.png';
 import Footer from './img/footer.png';
@@ -22,7 +22,10 @@ import cancel from './img/Cancel.png';
 import contact from './img/contact.png';
 import about from './img/about.png';
 import work from './img/work.png';
-
+import MediumIcon from './img/medium.png';
+import LinkedInIcon from './img/linkedin.png';
+import BehanceIcon from './img/behances.png';
+import GithubIcon from './img/githubs.png';
 
 function App() {
   // State to control popup visibility and image
@@ -58,6 +61,20 @@ function App() {
 
       <header className="App-header">
         <img src={Home} className="home" alt="homeImg" />
+        <div className="social-icons">
+    <a href="https://medium.com/@2020is026" target="_blank" rel="noopener noreferrer">
+      <img src={MediumIcon} alt="Behance" className="social-icon" />
+    </a>
+    <a href="https://www.linkedin.com/in/githmi-de-silva-802084222/" target="_blank" rel="noopener noreferrer">
+      <img src={LinkedInIcon} alt="LinkedIn" className="social-icon" />
+    </a>
+    <a href="https://github.com/GithmiNiseka" target="_blank" rel="noopener noreferrer">
+      <img src={GithubIcon} alt="LinkedIn" className="social-icon" />
+    </a>
+    <a href="https://www.behance.net/githmidesilva" target="_blank" rel="noopener noreferrer">
+      <img src={BehanceIcon} alt="LinkedIn" className="social-icon" />
+    </a>
+  </div>
      
         <img src={Skill} className="home" alt="homeImg" />
         <img src={about} className="home" alt="contactImg"  id="about"/>
@@ -97,8 +114,9 @@ function App() {
         <a href="https://www.behance.net/githmidesilva" target="_blank" rel="noopener noreferrer">  <img src={behance} className="logo" alt="homeImg" /></a>
         <a href="https://github.com/GithmiNiseka" target="_blank" rel="noopener noreferrer"> <img src={github} className="logo" alt="homeImg" /></a>
         </section>
-
-        <img src={contact} className="home" alt="contactImg"  id="contact"/>
+        <div class="ContactContainer">
+        <img src={contact} className="home" alt="contactImg"  id="contactImg"/>
+        </div>
         <section id="contact">
           <h1 className="sectionTitle">Contact</h1>
           <form action="">
@@ -172,7 +190,7 @@ function App() {
         <img
           src={github}
           alt="Figmagreen"
-          className="popup-icon-left-bottom"
+          className="popup-icon-right-bottom"
         />
         </a>
       )}
