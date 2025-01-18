@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Githmi_portfolio/static/css/main.52e67f01.css",
-    "main.js": "/Githmi_portfolio/static/js/main.b7a95ba0.js",
+    "main.css": "/Githmi_portfolio/static/css/main.33af001d.css",
+    "main.js": "/Githmi_portfolio/static/js/main.d819eb23.js",
     "static/js/488.9561f9b8.chunk.js": "/Githmi_portfolio/static/js/488.9561f9b8.chunk.js",
-    "static/media/Desktop - 6.png": "/Githmi_portfolio/static/media/Desktop - 6.1204415846d04dd57dca.png",
-    "static/media/Desktop - 4.png": "/Githmi_portfolio/static/media/Desktop - 4.730750ef6143d58e543c.png",
-    "static/media/Frame 1(1).png": "/Githmi_portfolio/static/media/Frame 1(1).dae71b011f5558498cc7.png",
-    "static/media/Desktop - 2.png": "/Githmi_portfolio/static/media/Desktop - 2.668ca3c38be39f2dec63.png",
+    "static/media/Desktop - 6.png": "/Githmi_portfolio/static/media/Desktop - 6.2a14ddf6917fd2841241.png",
+    "static/media/Desktop - 4.png": "/Githmi_portfolio/static/media/Desktop - 4.c6aee64ed17537f195fc.png",
+    "static/media/Desktop - 2.png": "/Githmi_portfolio/static/media/Desktop - 2.43dc9de44e01ad85aaae.png",
+    "static/media/Frame 1.png": "/Githmi_portfolio/static/media/Frame 1.b22fcd05c6156e703af3.png",
+    "static/media/Desktop - 5.png": "/Githmi_portfolio/static/media/Desktop - 5.90e26dda49401bd83470.png",
     "static/media/HappyTails.png": "/Githmi_portfolio/static/media/HappyTails.5ecfbc455920d6e88f84.png",
-    "static/media/Desktop - 5.png": "/Githmi_portfolio/static/media/Desktop - 5.f1cde7f30163486a03fa.png",
     "static/media/CommunityApp.png": "/Githmi_portfolio/static/media/CommunityApp.94da8ef92926c3653af1.png",
     "static/media/mentalSpace.png": "/Githmi_portfolio/static/media/mentalSpace.b30f459a2a91525868e8.png",
     "static/media/experience.png": "/Githmi_portfolio/static/media/experience.6a5c22d7f2df87d232ec.png",
@@ -21,12 +21,12 @@
     "static/media/Github.png": "/Githmi_portfolio/static/media/Github.28af084297bc79a8b11a.png",
     "static/media/footer.png": "/Githmi_portfolio/static/media/footer.bd274bae03d7e9fa50e3.png",
     "index.html": "/Githmi_portfolio/index.html",
-    "main.52e67f01.css.map": "/Githmi_portfolio/static/css/main.52e67f01.css.map",
-    "main.b7a95ba0.js.map": "/Githmi_portfolio/static/js/main.b7a95ba0.js.map",
+    "main.33af001d.css.map": "/Githmi_portfolio/static/css/main.33af001d.css.map",
+    "main.d819eb23.js.map": "/Githmi_portfolio/static/js/main.d819eb23.js.map",
     "488.9561f9b8.chunk.js.map": "/Githmi_portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52e67f01.css",
-    "static/js/main.b7a95ba0.js"
+    "static/css/main.33af001d.css",
+    "static/js/main.d819eb23.js"
   ]
 }
