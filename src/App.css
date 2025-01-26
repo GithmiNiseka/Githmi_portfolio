@@ -3,6 +3,9 @@
 
 body{
   font-family: 'Alata', sans-serif!important;
+  margin: 0 !important;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .App {
@@ -40,7 +43,6 @@ body{
   }
 }
 
-
 .mobile {
   display: none;
 }
@@ -55,6 +57,7 @@ body{
   }
 
  
+ 
 }
 
 /* Optionally, adjust image size for mobile screens */
@@ -64,6 +67,11 @@ body{
   }
   .footer{
     width: 90%;
+  }
+ 
+  .contactImg{
+     height: 100%;
+     width: 150%;
   }
   
 }
@@ -200,7 +208,7 @@ ul, li, a {
     padding: 10px 10px; 
     
   }
-
+ 
   .navbar-logo a {
     font-size: 0.85rem;
     margin-right: 10px;
@@ -213,6 +221,16 @@ ul, li, a {
   .navbar-links li a {
     font-size: 0.8rem; 
     padding: 3px 5px; 
+  }
+.center-container{
+  display: flex;
+  justify-content: center !important; /* Center horizontally */
+  align-items: center;
+ 
+}
+ 
+  .DetailView{
+    width: 100%;
   }
 }
 
@@ -234,16 +252,15 @@ ul, li, a {
 .popup-content {
   position: relative;
   padding: 20px;
-  background-color: white;
   border-radius: 10px;
 }
 
 /* Image inside the popup */
 .popup-img {
-  max-width: 100%;
-  max-height: 80vh;
+  max-width: 50%;
+
   object-fit: contain;
-  border-radius: 10px;
+  
 }
 
 /* Close the popup when clicking on overlay */
@@ -322,7 +339,7 @@ ul, li, a {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 .ViewMore{
-  margin-top: 50px; 
+  margin-top: 10px; 
 }
 .more{
   margin-bottom: 50px; 
@@ -330,7 +347,7 @@ ul, li, a {
 
 @media (max-width: 768px) {
   .ViewMore{
-    width: 100px; 
+    width: 120%; 
   }
   .logo {
     width: 50px;
@@ -348,15 +365,15 @@ ul, li, a {
 /* Default styles for Desktop and larger screens */
 .social-icons {
   position: relative;
-  bottom: 220px; /* Adjust the distance from the bottom */
-  left: -300px;  /* Adjust the distance from the left */
+  bottom: 100px; /* Adjust the distance from the bottom */
+  left: -150px;  /* Adjust the distance from the left */
   display: flex; /* Arrange the icons horizontally */
   flex-direction: row; /* Default horizontal layout for desktop */
 }
 
 .social-icon {
-  width: 80px; /* Set the size of the social icons */
-  height: 80px; /* Set the size of the social icons */
+  width: 50px; /* Set the size of the social icons */
+  height: 50px; /* Set the size of the social icons */
   margin-right: 10px; /* Add some spacing between icons */
   opacity: 0.8; /* Optional: Add a little transparency */
   transition: opacity 0.3s ease; /* Smooth transition for hover effect */
@@ -369,14 +386,30 @@ ul, li, a {
 @media (max-width: 768px) {
   .social-icons {
     position: relative;
-    bottom: 50px; /* Adjust the distance from the bottom */
-    left: -70px;  /* Adjust the distance from the left */
+    bottom: 25px; /* Adjust the distance from the bottom */
+    left: -50px;  /* Adjust the distance from the left */
 
   }
   .social-icon {
-    width: 25px; /* Set the size of the social icons */
-    height: 25px; /* Set the size of the social icons */
+    width: 20px; /* Set the size of the social icons */
+    height: 20px; /* Set the size of the social icons */
     margin-right: 2px; /* Add some spacing between icons */
     
   }
+}
+
+.center-container {
+  display: flex;
+  justify-content: center !important; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  margin: 0;
+}
+
+.centered-image {
+  max-width: 100%; /* Ensures the image scales responsively */
+  height: auto;    /* Maintains aspect ratio */
+}
+
+.footer{
+  max-width: 100%;
 }
