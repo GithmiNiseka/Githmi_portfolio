@@ -13,7 +13,7 @@ function App() {
     <Router>
         
         <Routes>
-          <Route path="/Portfolio_UX" element={<Home />} />
+          <Route path="/" element={<Home />} />
         <Route path="/lmsCaseStudy" element={<LMSCaseStudy />} />
         <Route path="/lexTrustCaseStudy" element={<LexTrustCaseStudy />} />
         <Route path="/growMateCaseStudy" element={<GrowMateCaseStudy />} />
