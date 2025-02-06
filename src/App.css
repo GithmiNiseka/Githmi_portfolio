@@ -1,0 +1,643 @@
+body{
+background-color: black;
+color: #ffffff;
+}
+
+
+.navigationBar{
+display: flex;
+justify-content: center;
+}
+
+.logo{
+  align-items: left;
+  width: 200px;
+  height: 40px;
+  margin-right: 500px;
+  margin-top: 10px;
+}
+.home.active {
+  background-color: white;
+  color: black; /* Change text color */
+  border-radius: 50%;
+  padding: 12px 22px; /* Adjust padding for circular shape */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Hover Effect */
+.home:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10%;
+  padding: 8px 8px;
+  transition: 0.3s;
+}
+.pagesTabs{
+  background-color: #202020;
+  border-radius: 50px;
+  height: 46px;
+  width: 696px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home{
+  font-size: 18px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.homePage {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 0px; 
+  padding: 20px;
+ 
+}
+
+.myself{
+  width: 500px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+ 
+ 
+}
+.githmi{
+  font-weight: 400;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.myDescription{
+  font-weight: 300;
+  font-size: 30px;
+  
+}
+
+.linkedinIcon,
+.githubIcon,
+.behanceIcon,
+.mediumIcon{
+ width: 60px;
+ height: 60px;
+ margin: 5px;
+}
+
+.profileImg{
+  flex: 1;
+  margin-left: 150px;
+}
+
+
+.skillList{
+  display: flex;
+  justify-content: center;
+}
+.skills{
+  width: 70%;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  margin-bottom: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 200;
+  margin-left: 160px;
+}
+
+.plusIcon {
+  font-size: 45px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 160px;
+}
+
+.hrLine {
+ width: 80%;
+}
+
+.content{
+  margin-left: 200px;
+}
+
+
+.degree{
+font-weight: 300;
+font-size: 25px;
+
+}
+
+.uni{
+font-weight: 250;
+font-size: 18px;
+margin-bottom: 0;  
+}
+
+.date{
+  font-weight: 200;
+  margin-top: 0;
+  font-style: italic;
+ 
+}
+
+.uni, .date {
+  padding: 0;  
+}
+
+.ProjectBox {
+  background-color: #222222;
+  width: 75%;
+  height: 500px;
+  border-radius: 50px;
+  margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.listOfProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideImage {
+  width: 80%;
+  height: auto;
+  transition: transform 1s ease-in-out; /* Smooth transition when changing images */
+}
+
+/* Arrow Button Styles */
+.ArrowImg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leftArrow {
+  left: 15px;
+}
+
+.rightArrow {
+  right: 15px;
+}
+
+.arrowImage {
+  width: 60px;
+  height: 60px;
+}
+
+.ArrowImg:hover .arrowImage {
+  transform: scale(1.2);
+}
+
+.lmsCSDisplay{
+  display: flex;
+  justify-content: center;
+}
+.lmsCaseStudy {
+ 
+  align-items: center;
+  max-width: 70%;
+  height: auto;
+  display: block; 
+
+}
+
+.contactPage{
+  margin-left: 160px;
+  margin-top: 150px;
+}
+
+.contact{
+  font-weight: 200;
+  font-size: 40px;
+}
+
+
+
+.label{
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  color: white;
+  padding: 1px 0;
+  border: none;
+  border-bottom: 2px solid #333; 
+  outline: none; 
+  width: 85%;
+  font-size: 16px;
+  background-color: transparent; 
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: transparent; /* Removes background color */
+  border: 0.2px solid #ffffff; /* White border */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 1150;
+  letter-spacing: 5px;
+  width: 200px;
+  height: 35px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background effect on hover */
+  border-color: #ffffff;
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.blogPage {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogCirlce {
+  margin-left: 3%;
+  position: relative;
+  width: 350px; 
+  height: auto;
+  z-index: -1;
+}
+
+.fork, .font, .color, .bvsm {
+  position: relative;
+  width: 250px; 
+  height: auto;
+  border-radius: 12px; /* Optional */
+  padding: 10px;
+  
+}
+
+.fork {
+  top: -220px;
+  left: 14%;
+}
+
+.font {
+  top:-220px;
+  left: 23%;
+  transform: translateX(-50%);
+}
+
+.color {
+  top: 100px;
+  right: -150px;
+}
+
+.bvsm {
+  top: 100px;
+  right: 35%;
+  transform: translateX(50%);
+}
+
+
+/* Tablet Screens (768px and below) */
+@media (max-width: 768px) {
+  .navigationBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 150px;
+    height: 35px;
+    margin-right: 0;
+  }
+
+  .pagesTabs {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .homePage {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .myself {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .profileImg {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .skills {
+    width: 90%;
+    height: auto;
+  }
+
+  .ProjectBox {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .ArrowImg {
+    position: static;
+    transform: none;
+    margin: 10px;
+  }
+
+  .contactPage {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Mobile Screens (480px and below) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .navigationBar {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .home{
+    position: relative;
+    top:-10px;
+    font-size: 15px;
+
+  }
+
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+
+  .pagesTabs {
+    width: 97%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    height: 40px;
+
+    
+  }
+
+  .homePage {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .githmi {
+    font-size: 35px;
+  }
+
+  .myDescription {
+    font-size: 18px;
+  }
+
+  .socialIcon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profileImg img {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .plusIcon {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+
+  .projectLargeBox {
+    margin-bottom: 10px;
+  }
+
+  .ProjectBox {
+    width: 90%;
+    height: 220px;
+    margin-left: 5%;
+    border-radius: 20px;
+    
+  }
+
+  .slideImage {
+    width: 85%; /* Further reduce image size */
+  }
+
+  .arrowImage {
+    width: 25px;
+    height: 25px;
+  }
+ 
+  .leftArrow {
+    left: 5px;
+  }
+
+  .rightArrow {
+    right: 5px;
+  }
+
+  .contactPage {
+    width: 95%;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-top: -100px;
+  }
+
+  input, textarea {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  
+.blogPage{
+  margin-bottom: 0;
+  height: 200px;
+}
+  .blogCirlce {
+    position:relative;
+    top:-155px;
+    left: -60px;
+    width: 200px;
+  }
+
+  .fork, .font, .color, .bvsm {
+    position: relative;
+    width: 150px; 
+  }
+
+  .fork{
+ top:-120px;
+ left:10%;
+  }
+
+  .font{
+    top:-115px;
+    left:30%;
+  }
+
+  .color{
+    top:-40px;
+    right:15px;
+  }
+
+  .bvsm{
+    top:-190px;
+    right:55px;
+  }
+
+
+  .content {
+    margin-left: 20px;
+   
+  }
+  .degree {
+    font-size: 18px;
+  }
+
+  .uni {
+    font-size: 14px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .contact{
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .label{
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .contactPage{
+    position: relative;
+    top:-100px;
+    margin-top: 0;
+  }
+  
+  
+  input, textarea {
+
+    font-size: 11px;
+    
+  }
+  
+
+
+  button {
+
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 35px;
+
+    
+  }
+}
+
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer{
+  margin-top: 50px;
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 50px;
+}
+
+.footerText{
+  text-align: center;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: auto; /* Adjust height based on content */
+    padding: 10px 0; /* Add padding for spacing */
+    text-align: center;
+  }
+
+  .footerText {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 15px 0; /* More padding for smaller devices */
+  }
+
+  .footerText {
+    font-size: 12px; /* Even smaller font for mobile screens */
+  }
+}
