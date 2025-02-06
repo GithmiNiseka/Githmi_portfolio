@@ -6,6 +6,7 @@ import medium from '../img/medium.png';
 import linkedin from '../img/linkedin.png';
 import SkillImg from '../img/Skills.png';
 import LexTrust from '../img/LexTrust.png';
+import GrowMate from '../img/GrowMate.png';
 import LMS from '../img/LMS.png';
 import leftArrow from '../img/leftArrow.png';
 import rightArrow from '../img/rightArrow.png';
@@ -15,7 +16,6 @@ import color from '../img/colour.png';
 import bvsm from '../img/bvsM.png';
 import blogCircle from '../img/blogCircle.png';
 import NavBar from '../Components/Nav.js';
-import footer from '../img/footer.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
       const [isExperienceOpen, setExperienceOpen] = useState(false);
 
 
-        const images = [LexTrust, LMS]; // Array of images
+        const images = [LMS,GrowMate,LexTrust ]; // Array of images
         const [currentIndex, setCurrentIndex] = useState(0);
       
         // Move to Previous Image
@@ -110,7 +110,7 @@ const Home = () => {
               <p className='date'>April 2021 - April 2025</p>
 
               <h4 className='uni'><span className='degree'>CIMA</span> </h4>
-              <p className='date'>April 2021 - April 2025</p>
+              <p className='date'>November 2020 - December 2021</p>
             </div>
             <hr className="hrLine" /> {/* Moves under expanded content */}
           </div>
@@ -153,7 +153,7 @@ const Home = () => {
                         </div>
                 
                         {/* Image */}
-                        <Link to={currentIndex === 0 ? '/lexTrustCaseStudy' : '/lmsCaseStudy'}>
+                        <Link to={currentIndex === 0 ? '/lmsCaseStudy' : currentIndex === 1 ? '/growMateCaseStudy' : '/lexTrustCaseStudy'}>
                         <div className="listOfProjects">
                           {/* Wrap the image in a Link */}
                          
@@ -236,10 +236,8 @@ const Home = () => {
                        
                         </div>
 
-                        <div className='footerImg'>
-                             
-                                  
-                          <img src={footer} className='footer'  alt='footer'/>
+                        <div className='footer'>
+                            <h4 className='footerText'>© 2024 Githmi De Silva <br /> All rights reserved.</h4> 
                                
                         </div>
 
