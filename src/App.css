@@ -254,26 +254,26 @@ textarea {
 }
 
 button {
-  
-  background-color: #333;
+  background-color: transparent; /* Removes background color */
+  border: 0.2px solid #ffffff; /* White border */
   color: white;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 30px;
-  font-weight: 300;
+  font-weight: 1150;
   letter-spacing: 5px;
-  width: 300px;
-  height: 32px;
+  width: 200px;
+  height: 35px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  
 }
 
 button:hover {
-  background-color: #555;
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background effect on hover */
+  border-color: #ffffff;
 }
+
 
 .error {
   color: red;
@@ -291,7 +291,7 @@ button:hover {
 }
 
 .blogCirlce {
-  margin-left: 40%;
+  margin-left: 3%;
   position: relative;
   width: 350px; 
   height: auto;
@@ -299,7 +299,7 @@ button:hover {
 }
 
 .fork, .font, .color, .bvsm {
-  position: absolute;
+  position: relative;
   width: 250px; 
   height: auto;
   border-radius: 12px; /* Optional */
@@ -308,24 +308,24 @@ button:hover {
 }
 
 .fork {
-  top: 300%;
+  top: -220px;
   left: 14%;
 }
 
 .font {
-  top:300%;
-  left: 40%;
+  top:-220px;
+  left: 23%;
   transform: translateX(-50%);
 }
 
 .color {
-  top: 340%;
-  right: 28%;
+  top: 100px;
+  right: -150px;
 }
 
 .bvsm {
-  top: 340%;
-  right: 20%;
+  top: 100px;
+  right: 35%;
   transform: translateX(50%);
 }
 
@@ -427,7 +427,7 @@ button:hover {
     justify-content: center;
     padding: 0px;
     height: 40px;
-    
+
     
   }
 
@@ -536,8 +536,8 @@ button:hover {
   }
 
   .color{
-    top:-190px;
-    right:-35px;
+    top:-40px;
+    right:15px;
   }
 
   .bvsm{
@@ -606,4 +606,38 @@ button:hover {
 a{
   text-decoration: none;
   color: #ffffff;
+}
+
+.footer{
+  margin-top: 50px;
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 50px;
+}
+
+.footerText{
+  text-align: center;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: auto; /* Adjust height based on content */
+    padding: 10px 0; /* Add padding for spacing */
+    text-align: center;
+  }
+
+  .footerText {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 15px 0; /* More padding for smaller devices */
+  }
+
+  .footerText {
+    font-size: 12px; /* Even smaller font for mobile screens */
+  }
 }
