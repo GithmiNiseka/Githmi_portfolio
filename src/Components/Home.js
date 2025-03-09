@@ -5,7 +5,8 @@ import behance from '../img/behance.png';
 import medium from '../img/medium.png';
 import linkedin from '../img/linkedin.png';
 import SkillImg from '../img/Skills.png';
-import LexTrust from '../img/LexTrust.png';
+import Signify from '../img/Signify.png';
+import MealMap from '../img/MealMap.png';
 import GrowMate from '../img/GrowMate.png';
 import LMS from '../img/LMS.png';
 import leftArrow from '../img/leftArrow.png';
@@ -24,7 +25,7 @@ const Home = () => {
       const [isExperienceOpen, setExperienceOpen] = useState(false);
 
 
-        const images = [LMS,GrowMate,LexTrust ]; // Array of images
+        const images = [Signify ,LMS,MealMap,GrowMate]; // Array of images
         const [currentIndex, setCurrentIndex] = useState(0);
       
         // Move to Previous Image
@@ -153,7 +154,7 @@ const Home = () => {
                         </div>
                 
                         {/* Image */}
-                        <Link to={currentIndex === 0 ? '/lmsCaseStudy' : currentIndex === 1 ? '/growMateCaseStudy' : '/lexTrustCaseStudy'}>
+                        <Link to={currentIndex === 0 ? '/4thyrResearch' : currentIndex === 1 ? '/lmsCaseStudy' :currentIndex === 2 ? '/mealMapCaseStudy' : '/growMateCaseStudy'}>
                         <div className="listOfProjects">
                           {/* Wrap the image in a Link */}
                          
