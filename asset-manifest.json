@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Githmi_portfolio/static/css/main.9f286eff.css",
+    "main.js": "/Githmi_portfolio/static/js/main.8e57bcca.js",
+    "static/js/488.2c2c4401.chunk.js": "/Githmi_portfolio/static/js/488.2c2c4401.chunk.js",
+    "static/media/FinalPrototype.mp4": "/Githmi_portfolio/static/media/FinalPrototype.54f285d97a2293b919ab.mp4",
+    "static/media/MealMapCaseStudy.png": "/Githmi_portfolio/static/media/MealMapCaseStudy.d802eb139587ee17717b.png",
+    "static/media/LMSCaseStudy.png": "/Githmi_portfolio/static/media/LMSCaseStudy.9499ca2b263b0735b9da.png",
+    "static/media/GrowMateCaseStudy.png": "/Githmi_portfolio/static/media/GrowMateCaseStudy.459f57a8c82c09c91748.png",
+    "static/media/Research.png": "/Githmi_portfolio/static/media/Research.e9b8aac05be41984b430.png",
+    "static/media/MealMap.png": "/Githmi_portfolio/static/media/MealMap.f9337cc105604ce8f34c.png",
+    "static/media/LMS.png": "/Githmi_portfolio/static/media/LMS.c4d3cff43a01c573ecc1.png",
+    "static/media/GrowMate.png": "/Githmi_portfolio/static/media/GrowMate.3eaeef3d19f34bb4a42d.png",
+    "static/media/profileImg.png": "/Githmi_portfolio/static/media/profileImg.334a6c2ddb259660ffd8.png",
+    "static/media/Skills.png": "/Githmi_portfolio/static/media/Skills.f862fcc7220bcbec7a4e.png",
+    "static/media/bvsM.png": "/Githmi_portfolio/static/media/bvsM.06c9b2bb63db494812f6.png",
+    "static/media/fork.png": "/Githmi_portfolio/static/media/fork.b991c8cbda4ed2b150ce.png",
+    "static/media/font.png": "/Githmi_portfolio/static/media/font.25f5acf582d4b41615eb.png",
+    "static/media/Signify.png": "/Githmi_portfolio/static/media/Signify.a0736a21bb71c2fbcbb4.png",
+    "static/media/colour.png": "/Githmi_portfolio/static/media/colour.f9f6c002a8de2cb2f615.png",
+    "index.html": "/Githmi_portfolio/index.html",
+    "main.9f286eff.css.map": "/Githmi_portfolio/static/css/main.9f286eff.css.map",
+    "main.8e57bcca.js.map": "/Githmi_portfolio/static/js/main.8e57bcca.js.map",
+    "488.2c2c4401.chunk.js.map": "/Githmi_portfolio/static/js/488.2c2c4401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f286eff.css",
+    "static/js/main.8e57bcca.js"
+  ]
+}
