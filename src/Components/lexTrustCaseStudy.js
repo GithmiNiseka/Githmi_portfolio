@@ -1,6 +1,6 @@
 import React from 'react';
 import lexTrustCasestudyImg from '../img/Research.png';
-import caseStudyVideo from '../Video/FinalPrototype.mp4';
+import caseStudyVideo from '../img/FinalPrototype.mp4';
 
 const lexTrustCaseStudy = () => {
   return (
