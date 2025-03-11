@@ -15,7 +15,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<Home />} />
-        <Route path="/lmsCaseStudy" element={<LMSCaseStudy />} />
+        <Route path="/farmoidapp" element={<LMSCaseStudy />} />
         <Route path="/4thyrResearch" element={<LexTrustCaseStudy />} />
         <Route path="/growMateCaseStudy" element={<GrowMateCaseStudy />} />
         <Route path="/mealMapCaseStudy" element={<MealMapCaseStudy />} />
