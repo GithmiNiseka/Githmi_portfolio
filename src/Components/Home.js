@@ -8,7 +8,7 @@ import SkillImg from '../img/Skills.png';
 import Signify from '../img/Signify.png';
 import MealMap from '../img/MealMap.png';
 import GrowMate from '../img/GrowMate.png';
-import LMS from '../img/LMS.png';
+import farmoid from '../img/farmoid.png';
 import leftArrow from '../img/leftArrow.png';
 import rightArrow from '../img/rightArrow.png';
 import fork from '../img/fork.png';
@@ -25,7 +25,7 @@ const Home = () => {
       const [isExperienceOpen, setExperienceOpen] = useState(false);
 
 
-        const images = [Signify ,LMS,MealMap,GrowMate]; // Array of images
+        const images = [Signify ,farmoid,MealMap,GrowMate]; // Array of images
         const [currentIndex, setCurrentIndex] = useState(0);
       
         // Move to Previous Image
@@ -154,7 +154,7 @@ const Home = () => {
                         </div>
                 
                         {/* Image */}
-                        <Link to={currentIndex === 0 ? '/4thyrResearch' : currentIndex === 1 ? '/lmsCaseStudy' :currentIndex === 2 ? '/mealMapCaseStudy' : '/growMateCaseStudy'}>
+                        <Link to={currentIndex === 0 ? '/4thyrResearch' : currentIndex === 1 ? '/farmoidapp' :currentIndex === 2 ? '/mealMapCaseStudy' : '/growMateCaseStudy'}>
                         <div className="listOfProjects">
                           {/* Wrap the image in a Link */}
                          
