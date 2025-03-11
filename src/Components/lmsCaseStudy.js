@@ -1,5 +1,5 @@
 import React from 'react';
-import lmsCasestudyImg from '../img/LMSCaseStudy.png';
+import lmsCasestudyImg from '../img/farmoidApp.png';
 
 const lmsCasestudy = () => {
   return (
