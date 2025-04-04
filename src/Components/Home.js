@@ -9,8 +9,6 @@ import Signify from '../img/Signify.png';
 import MealMap from '../img/MealMap.png';
 import GrowMate from '../img/GrowMate.png';
 import farmoid from '../img/farmoid.png';
-import leftArrow from '../img/leftArrow.png';
-import rightArrow from '../img/rightArrow.png';
 import fork from '../img/fork.png';
 import font from '../img/font.png';
 import color from '../img/colour.png';
@@ -25,26 +23,10 @@ const Home = () => {
       const [isExperienceOpen, setExperienceOpen] = useState(false);
 
 
-<<<<<<< HEAD
-        const images = [Signify ,LMS,MealMap,GrowMate]; // Array of images
-=======
-        const images = [Signify ,farmoid,MealMap,GrowMate]; // Array of images
->>>>>>> 58c9a3192b4a882c4cbb8b072ad344e820e1c787
-        const [currentIndex, setCurrentIndex] = useState(0);
+        const images = [Signify ,farmoid,GrowMate,MealMap]; // Array of images
       
-        // Move to Previous Image
-        const prevSlide = () => {
-          setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
-          );
-        };
       
-        // Move to Next Image
-        const nextSlide = () => {
-          setCurrentIndex((prevIndex) =>
-            prevIndex === images.length - 1 ? 0 : prevIndex + 1
-          );
-        };
+    
         const [formData, setFormData] = useState({
             fullName: '',
             email: '',
@@ -150,33 +132,28 @@ const Home = () => {
                 </div>
 
 {/* projects */}
-                 <div className="projectLargeBox" style={{marginBottom:250}} id='project'>
-                      <div className="ProjectBox">
-                        {/* Left Arrow */}
-                        <div className="ArrowImg leftArrow" onClick={prevSlide}>
-                          <img src={leftArrow} className="arrowImage" alt="leftArrow" />
-                        </div>
-                
-                        {/* Image */}
-<<<<<<< HEAD
-                        <Link to={currentIndex === 0 ? '/4thyrResearch' : currentIndex === 1 ? '/lmsCaseStudy' :currentIndex === 2 ? '/mealMapCaseStudy' : '/growMateCaseStudy'}>
-=======
-                        <Link to={currentIndex === 0 ? '/4thyrResearch' : currentIndex === 1 ? '/farmoidapp' :currentIndex === 2 ? '/mealMapCaseStudy' : '/growMateCaseStudy'}>
->>>>>>> 58c9a3192b4a882c4cbb8b072ad344e820e1c787
-                        <div className="listOfProjects">
-                          {/* Wrap the image in a Link */}
-                         
-                            <img src={images[currentIndex]} className="slideImage" alt="Project" />
-                           
-                        </div>
-                        </Link>
-                        {/* Right Arrow */}
-                        <div className="ArrowImg rightArrow" onClick={nextSlide}>
-                          <img src={rightArrow} className="arrowImage" alt="rightArrow" />
-                        </div>
-                      </div>
-                    </div>
-
+                 
+ <div className="projectGrid" id="project">
+ 
+  <div className="gridContainer">
+    {images.map((image, index) => (
+      <Link 
+        key={index} 
+        to={
+          index === 0 ? '/4thyrResearch' :
+          index === 1 ? '/farmoidapp' :
+          index === 2 ? '/growMateCaseStudy':
+         
+          '/mealMapCaseStudy'
+        }
+      >
+        <div className="projectCard">
+          <img src={image} className="projectImage" alt="Project" />
+        </div>
+      </Link>
+    ))}
+  </div>
+</div>
 
                     {/* Blogs */}
 
