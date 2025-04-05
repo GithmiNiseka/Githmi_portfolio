@@ -294,6 +294,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
 }
 
 .blogCirlce {
@@ -646,4 +647,38 @@ a{
   .footerText {
     font-size: 12px; /* Even smaller font for mobile screens */
   }
+}
+
+
+.projectGrid {
+  text-align: center;
+  padding-top: 0px ;
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.projectCard {
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
