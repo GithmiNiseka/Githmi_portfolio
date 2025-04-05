@@ -15,11 +15,10 @@ function App() {
         
         <Routes>
           <Route path="/" element={<Home />} />
-<<<<<<< HEAD
         <Route path="/lmsCaseStudy" element={<LMSCaseStudy />} />
-=======
+
         <Route path="/farmoidapp" element={<LMSCaseStudy />} />
->>>>>>> 58c9a3192b4a882c4cbb8b072ad344e820e1c787
+
         <Route path="/4thyrResearch" element={<LexTrustCaseStudy />} />
         <Route path="/growMateCaseStudy" element={<GrowMateCaseStudy />} />
         <Route path="/mealMapCaseStudy" element={<MealMapCaseStudy />} />
